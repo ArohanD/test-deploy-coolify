@@ -18,7 +18,7 @@
 			</picture>
 		</span>
 
-		to your new<br />SvelteKit demo app with hooks?
+		to your new<br />SvelteKit demo app with hooks??
 	</h1>
 
 	<h2>
