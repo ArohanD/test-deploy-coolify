@@ -1,4 +1,3 @@
-import { assets } from '$app/paths';
 import adapter from '@sveltejs/adapter-static';
 
 export default {
@@ -13,7 +12,7 @@ export default {
 			strict: true
 		}),
 		paths: {
-			assets: "https://apps.arohan.dev/testkit/"
+			assets: "https://apps.arohan.dev/testkit"
 		}
 	}
 };
