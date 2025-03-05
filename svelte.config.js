@@ -12,7 +12,8 @@ export default {
 			strict: true
 		}),
 		paths: {
-			assets: "https://apps.arohan.dev/testkit"
+			assets: "https://apps.arohan.dev/testkit",
+			path: "/testkit"
 		}
 	}
 };
