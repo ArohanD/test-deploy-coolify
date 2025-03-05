@@ -13,7 +13,16 @@ export default {
 		}),
 		paths: {
 			assets: "https://apps.arohan.dev/testkit",
-			path: "/testkit"
-		}
+			base: "/testkit"
+		},
+		prerender: {
+			handleHttpError: ({ status, path, referrer }) => {
+			  // This function can log errors, return a fallback, or simply ignore 404s.
+			  if (status === 404) {
+				// For example, return a custom response or simply allow the error.
+				return { status, body: 'Page not found' };
+			  }
+			}
+		  }
 	}
 };
